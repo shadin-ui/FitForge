@@ -295,7 +295,7 @@ const ClientProfile = () => {
                 <div key={photo.id} className="card">
                   <img
                     src={photo.url}
-                    alt={`Progress photo from ${photo.date}`}
+                    alt={`Taken on ${photo.date}`}
                     className="w-full h-48 object-cover rounded-lg mb-2"
                   />
                   <p className="text-sm text-muted">{photo.date}</p>

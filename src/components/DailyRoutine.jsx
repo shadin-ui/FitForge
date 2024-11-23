@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaDumbbell, FaRunning, FaYoga, FaAppleAlt, FaBed, FaBriefcase, FaBook } from 'react-icons/fa';
+import { FaDumbbell, FaRunning,FaAppleAlt, FaBed, FaBriefcase, FaBook } from 'react-icons/fa';
 import { IoFitness, IoWater } from 'react-icons/io5';
 import { MdSportsGymnastics } from 'react-icons/md';
 
 const activityTypes = [
   { id: 'workout', name: 'Workout', icon: <FaDumbbell className="w-5 h-5" /> },
   { id: 'cardio', name: 'Cardio', icon: <FaRunning className="w-5 h-5" /> },
-  { id: 'yoga', name: 'Yoga', icon: <FaYoga className="w-5 h-5" /> },
+  { id: 'yoga', name: 'Yoga', icon: <FaRunning className="w-5 h-5" /> },
   { id: 'stretching', name: 'Stretching', icon: <MdSportsGymnastics className="w-5 h-5" /> },
   { id: 'nutrition', name: 'Nutrition', icon: <FaAppleAlt className="w-5 h-5" /> },
   { id: 'hydration', name: 'Hydration', icon: <IoWater className="w-5 h-5" /> },

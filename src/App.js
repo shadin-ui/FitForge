@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider, ThemeToggle } from './components/ThemeProvider';
 import Header from './components/Header';
@@ -164,7 +164,7 @@ function App() {
         <Header />
         <main className="flex-grow pt-20">
           <AnimatePresence mode="wait">
-            <Routes>
+            <Routes location={location} key={location.pathname}>
               <Route path="/" element={<Home />} />
               <Route path="/planner" element={<WorkoutPlan />} />
               <Route path="/routine" element={<DailyRoutine />} />
