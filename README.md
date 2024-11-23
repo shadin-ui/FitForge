@@ -1,9 +1,8 @@
 # Personalized Workout Planner 🏋️‍♂️
-
+You can check out the live version of the app here: [Visit Site Fit Forge](https://fitforge-gold.vercel.app/)
 ## Overview  
 The **Personalized Workout Planner** is a React application built with Create React App and styled using Tailwind CSS. This app allows users to create tailored workout plans based on their fitness level, goals, and available equipment. It also features a daily tracker, motivational badges for milestone achievements, and integrates with an API for enhanced personalization.
 
-You can check out the live version of the app here: [Workout Planner](https://fitforge-gold.vercel.app/)
 
 ---
 
